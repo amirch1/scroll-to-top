@@ -1,6 +1,18 @@
-# Angular 4 Scroll-to-top component
+# Angular Scroll-to-top component
+
+A small component providing a scroll-to-top functionality for any Angualr app.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
+
+## Demo
+A demo can be seen [here](https://amirch1.github.io/scroll-to-top/).
+
+## API
+The component supports 2 attributes:
+### scrollOffset: 
+The amount of page scroll offset (from the top) in pixels afetr witch the component is shown
+### scrollDuration
+The scroll animation suration (ms)
 
 ## Development server
 
