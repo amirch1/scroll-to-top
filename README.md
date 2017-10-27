@@ -9,9 +9,9 @@ A demo can be seen [here](https://amirch1.github.io/scroll-to-top/).
 
 ## API
 The component supports 2 attributes:
-### scrollOffset: 
+#### scrollOffset: 
 The amount of page scroll offset (from the top) in pixels afetr witch the component is shown
-### scrollDuration
+#### scrollDuration:
 The scroll animation suration (ms)
 
 ## Development server
