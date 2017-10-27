@@ -1,12 +1,32 @@
 
 .header{
-    background-color: cornflowerblue;
+    background-color:darkseagreen;
+    display: flex;
+    align-items: flex-start;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    font-family: Arial;
     color: white;
+    font-weight: 700;
+    padding-top: 13px;
+    box-sizing: border-box;
+}
+.header>span{
+    margin-left: 12px;
+}
+.header>input{
+    width: 80px;
+    margin-left: 4px;
+}
+.container{
+    margin-top: 60px;   
+}
+.line{
     font-family: Arial;
     font-size: 16px;
     font-weight: 700;
-    text-align: center;
-    height: 40px;
-    width: 100%;
-    position: fixed;
+    padding-left: 120px;
+    line-height: 24px;
 }

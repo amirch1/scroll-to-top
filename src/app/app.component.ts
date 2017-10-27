@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   public lines: string[] = [];
+  public offset = 0;
+  public duration = 500;
   
   constructor(){
     for (let i = 1; i<=100; i++){

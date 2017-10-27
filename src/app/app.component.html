@@ -1,2 +1,12 @@
-<p *ngFor="let line of lines">{{line}}</p>
-<scroll-to-top></scroll-to-top>
+<div class="header">
+    <span>Scroll-to-top component setup:</span>
+    <span>Scroll offset (px):</span>
+    <input [(ngModel)]="offset">
+    <span>Scroll duration (ms):</span>
+    <input [(ngModel)]="duration">
+</div>
+<div class="container">
+    <div class="line" *ngFor="let line of lines">{{line}}</div>
+</div>
+
+<scroll-to-top [scrollOffset]="offset" [scrollDuration]="duration"></scroll-to-top>
