@@ -7,10 +7,10 @@ import { Component, Input, HostListener } from '@angular/core';
 })
 export class ScrollToTopComponent {
 
-    @Input() scrollOffset = 0;
-    @Input() scrollDuration = 500;
+  @Input() scrollOffset = 0;
+  @Input() scrollDuration = 500;
 
-    public _show = false;
+  public _show = false;
 	private scrolling = false;
 
 	constructor() {}
@@ -40,4 +40,5 @@ export class ScrollToTopComponent {
 			window.requestAnimationFrame(step);
 		}
 	}
+  
 }
