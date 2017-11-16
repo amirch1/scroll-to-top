@@ -1,6 +1,6 @@
 # Angular Scroll-to-top component
 
-A small component providing a scroll-to-top functionality for any Angualr app.
+A small component providing a scroll-to-top functionality for any Angular app.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
 
